@@ -1,4 +1,4 @@
-angular.module('enuo.grid')
+angular.module('grid.table')
     .directive('emptyResult', function() {
         return {
             restrict: 'EA',
@@ -10,7 +10,7 @@ angular.module('enuo.grid')
                 emStyle: '@'
             },
             replace: true,
-            templateUrl: 'enuo/grid/templates/emptyResult.html',
+            templateUrl: 'grid/table/templates/emptyResult.html',
             controller: function($scope, $element, $attrs) {
                 $scope.$watchGroup(['height', 'emTitle', 'emIntro', 'emIcon', 'emStyle'],
                     function(newVal, oldVal) {

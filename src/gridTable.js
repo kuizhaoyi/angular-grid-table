@@ -1,5 +1,5 @@
-angular.module('enuo.grid')
-    .directive("enuoGrid", function() {
+angular.module('grid.table')
+    .directive("gridTable", function() {
         return {
             restrict: 'E',
             replace: true,
@@ -7,7 +7,7 @@ angular.module('enuo.grid')
                 config: '=',
                 gridSource: '='
             },
-            templateUrl: "enuo/grid/templates/enuoGrid.html",
+            templateUrl: "grid/table/templates/gridTable.html",
             controller: function($scope, $element, $attrs) {
                 //$scope.selectedList = [];
                 $scope.config.selectedList = $scope.config.selectedList || [];

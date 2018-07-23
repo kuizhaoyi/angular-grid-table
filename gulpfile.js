@@ -10,8 +10,8 @@ gulp.task('ngTemplate', function() {
     return gulp.src('./src/*.html')
         .pipe(templateCache({
             standalone: true,
-            module: 'enuo.grid',
-            root: 'enuo/grid/templates'
+            module: 'grid.table',
+            root: 'grid/table/templates'
         }))
         .pipe(gulp.dest('./src'));
 });
@@ -21,7 +21,7 @@ gulp.task('build', function() {
             "./src/templates.js",
             "./src/bw.paging.js",
             "./src/emptyResult.js",
-            "./src/enuoGridCell.js",
+            "./src/gridTableCell.js",
             "./src/*.js",
         ])
         .pipe(ngAnnotate())
@@ -30,14 +30,14 @@ gulp.task('build', function() {
                 max_line_len: 100000
             }
         }))
-        .pipe(concat('enuo-grid.js'))
+        .pipe(concat('grid-table.js'))
         .pipe(gulp.dest("./dist"));
 });
 
 gulp.task('sass', function() {
     return gulp.src("./src/*.scss")
         .pipe(sass())
-        .pipe(concat('enuo-grid.css'))
+        .pipe(concat('grid-table.css'))
         .on('error', sass.logError)
         .pipe(gulp.dest("./dist"));
 });

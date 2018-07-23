@@ -1,13 +1,13 @@
 {
-    "name": "angular-enuo-grid",
-    "homepage": "https://github.com/zhanxp/angular-enuo-grid",
+    "name": "angular-grid-table",
+    "homepage": "https://github.com/kuizhaoyi/angular-grid-table",
     "authors": [
-        "zhanxp@me.com"
+        "1129185917@qq.com"
     ],
     "description": "",
     "main": [
-        "./dist/enuo-grid.js",
-        "./dist/enuo-grid.css"
+        "./dist/grid-table.js",
+        "./dist/grid-table.css"
     ],
     "license": "MIT",
     "ignore": [

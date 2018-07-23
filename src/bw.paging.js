@@ -10,7 +10,7 @@
  * @element EA
  *
  */
-angular.module('enuo.grid').directive('paging', function() {
+angular.module('grid.table').directive('paging', function() {
 
     /**
      * The regex expression to use for any replace methods

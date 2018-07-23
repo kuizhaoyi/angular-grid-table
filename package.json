@@ -1,6 +1,6 @@
 {
-    "name": "angular-enuo-grid",
-    "version": "1.0.6",
+    "name": "angular-grid-table",
+    "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhanxp/angular-enuo-grid.git"
+        "url": "git+https://github.com/kuizhaoyi/angular-grid-table"
     },
-    "author": "zhanxp@me.com",
+    "author": "1129185917@qq.com",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/zhanxp/angular-enuo-grid/issues"
+        "url": "https://github.com/kuizhaoyi/angular-grid-table/issues"
     },
-    "homepage": "https://github.com/zhanxp/angular-enuo-grid#readme",
+    "homepage": "https://github.com/kuizhaoyi/angular-grid-table#readme",
     "dependencies": {
         "browser-sync": "^2.18.13",
         "gulp": "^3.9.1",

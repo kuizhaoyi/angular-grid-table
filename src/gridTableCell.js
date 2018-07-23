@@ -1,5 +1,5 @@
-angular.module('enuo.grid')
-    .directive('enuoGridCell', function() {
+angular.module('grid.table')
+    .directive('gridTableCell', function() {
         return {
             restrict: 'EA',
             replace: true,
